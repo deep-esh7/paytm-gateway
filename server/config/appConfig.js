@@ -13,7 +13,7 @@ var paytmConfig = {
 	key: process.env.PAYTM_MERCH_KEY || 'W_ipsL9Yhqq8!x@z',
 //   CONALvaAM4vMejWB
   website: process.env.PAYTM_MERCH_WEBSITE || 'WEBSTAGING',
-  transactionUrl: process.env.PAYTM_TXN_URL || 'https://securegw.paytm.in/order/process',
+  transactionUrl: process.env.PAYTM_TXN_URL || 'https://securegw-stage.paytm.in/theia/processTransaction',
   hostName: process.env.PAYTM_HOST || 'securegw-stage.paytm.in'
 };
 
