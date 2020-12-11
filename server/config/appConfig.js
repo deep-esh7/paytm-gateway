@@ -1,6 +1,6 @@
 const appConfig = {
   port: process.env.PORT || 3000,
-  hostUrl: process.env.HOST_URL || `http://paytmchecksum7.herokuapp.com/`
+  hostUrl: process.env.HOST_URL || `http://paytmchecksum7.herokuapp.com`
 };
 
 const logConfig = {
